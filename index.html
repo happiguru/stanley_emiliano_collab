@@ -8,21 +8,48 @@
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <h1 id='title'>Stanley and Emiliano Collab Survey</h1>
         <p id='description'>Thank you for taking the time to fill this form!</p>
+        <div id="main">
+        
         <form id="survey-form">
-            <label>Name</label>
+            <label id="name-label">Name</label>
             <br>
-            <input id="name" required type="text">
+            <input id="name" required type="text" placeholder="Enter your name">
+            
             <br>
+            <label id="email-label">E-Mail</label>
             <br>
-            <label>E-Mail</label>
+            <input id="email" type="email" required placeholder="Enter your Email">
+            
             <br>
-            <input id="email" type="email" required>
+            <label id="number-label">Age</label>
             <br>
+            <input id="number" type="number" required min="1" max="75" placeholder="Enter your Age" >
             <br>
-            <label>Age</label>
-            <br>
-            <input id="number" type="number" required>
-
+            
+            <label id="sex">Sex</label> 
+            <select   id="dropdown">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+              </select>
+              <label id="recommendation">Would you recommend Microverse course to your friends?</label><br>
+              
+              <input type="radio" id="yes" name="yes.." value="Yes">
+              <label id="yes_label">Yes</label>
+              <input type="radio" id="no" name="yes.." value="No">
+              <label id="no_label">No</label>
+              <input type="radio" id="Not_Sure" name="yes.." value="Not Sure">
+              <label id="not_sure_label">Not Sure</label>
+            
+              <label id="like">What do you like about Microverse</label><br>
+              <input type="checkbox" id="life_coaching"  value="Life Coaching">
+              <label id="life_coaching_label">Life Coaching</label>
+              <input type="checkbox" id="qualified" value="Qualified Teaching Staffs">
+              <label id="qualified_label">Qualified Teaching Staffs</label>
+            <label id="explanation">Briefly explain why Microverse is important</label>
+              <textarea id="opinion" placeholder="Briefly explain...."></textarea>
+              <button type="submit" id="submit">Submit Form</button>
         </form>
+    </div>
     </body>
 </html>

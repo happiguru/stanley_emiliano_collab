@@ -1,14 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(172, 168, 194);
+    color: rgb(159, 172, 163);
+}
+#main {
+    background-color: rgb(30, 11, 82);
+    margin: 0px 270px 0px 270px;
+    border-radius: 4%;
+    padding-bottom: 60px;
+}
+
 h1{
     font-size: 40px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(35, 155, 75);
 }
 #description{
     font-size: 20px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
+    color: rgb(223, 35, 35);
 }
 #survey-form{
+    margin-top: 20px;
+    padding-top: 50px;
     font-size: 20px;
     text-align: center;
+    margin: 0 auto;
+}
+
+#dropdown {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 220px;
+    padding: 5px;
+    border-radius: 2px;
+}
+#number, #email, #name, #sex {
+    width: 200px;
+    height: 22px;
+    border-radius: 2px;
+    padding-left: 20px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#yes, #no, #not_sure {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#life_coaching, #qualified, #opinion, #explanation, #like, #recommendation {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+#opinion {
+    height: 100px;
+    width: 400px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+}
+#submit {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: auto;
+    height: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
